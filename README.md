@@ -1,12 +1,50 @@
-# React + Vite
+# 🎬 ScoobyMovy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Your personal movie list app — simple, slick, and speedy.  
+Add, search, and awe at your favorite movies with a modern UI powered by React and Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+[🔗 scoobymovy.vercel.app](https://scoobymovy.vercel.app) _(Replace with your actual link)_
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+| Tech        | Purpose                      |
+|--------------------------------------------|
+| ⚛️ React   | UI Development                |
+| ⚡ Vite    | Lightning-fast build tooling  |
+| 🎨 Tailwind| Utility-first CSS framework   |
+| 🛡️ Appwrite| Backend-as-a-Service (BaaS)   |
+
+---
+
+## 📸 Features
+
+- 🔍 **Search** for your favorite movies
+- 🔄 **Realtime updates** via Appwrite
+- 💅 **Responsive** design for all devices
+- 🌀 **Loader spinner** for better UX
+- 🔥 Ultra-fast performance with Vite
+
+---
+
+## 📂 Folder Structure
+
+```bash
+├── src/
+│   ├── Components/
+│   │   ├── movieCard.jsx
+│   │   ├── search.jsx
+│   │   └── spinner.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── appwrite.js
+├── .env.local
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
